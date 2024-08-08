@@ -12,7 +12,7 @@ img.addEventListener('load', () => {
     const particleCount = 3000;
 
     let switcher = 1;
-    let counter = 0;
+    let counter = 0
     setInterval(function(){
         counter++;
         if (counter % 15 === 0) {
@@ -71,7 +71,7 @@ img.addEventListener('load', () => {
             //     this.size = 0;
             // }
             if (switcher === 1) {
-                ctx.globalCompositeOperation = 'lighter';
+                ctx.globalCompositeOperation = 'screen';
             } else {
                 ctx.globalCompositeOperation = 'luminosity';
             }
