@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+ #canv {
+    outline: white solid 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 200px;
+    height: 200px; */
+    filter: contrast(0.5) brightness(1) saturate(2);
+}
